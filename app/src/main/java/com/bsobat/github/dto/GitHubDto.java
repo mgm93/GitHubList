@@ -3,6 +3,7 @@ package com.bsobat.github.dto;
 
 import com.google.gson.annotations.SerializedName;
 
+import androidx.annotation.NonNull;
 import androidx.room.Embedded;
 import androidx.room.Entity;
 import androidx.room.PrimaryKey;
@@ -10,6 +11,7 @@ import androidx.room.PrimaryKey;
 @Entity
 public class GitHubDto {
     @PrimaryKey
+    @NonNull
     private String id;
     private String name;
     @SerializedName("full_name")
