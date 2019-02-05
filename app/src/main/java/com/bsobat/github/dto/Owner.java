@@ -1,8 +1,9 @@
 package com.bsobat.github.dto;
 
-import android.arch.persistence.room.ColumnInfo;
 
 import com.google.gson.annotations.SerializedName;
+
+import androidx.room.ColumnInfo;
 
 public class Owner {
     @ColumnInfo(name = "user_id")

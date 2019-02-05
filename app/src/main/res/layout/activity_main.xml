@@ -5,7 +5,7 @@
 
     <data>
 
-        <import type="android.databinding.adapters.Converters" />
+        <import type="androidx.databinding.adapters.Converters" />
 
         <import type="android.view.View" />
 

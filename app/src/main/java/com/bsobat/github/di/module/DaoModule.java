@@ -1,13 +1,14 @@
 package com.bsobat.github.di.module;
 
 import android.app.Application;
-import android.arch.persistence.room.Room;
+
 
 import com.bsobat.github.dao.GitHubDao;
 import com.bsobat.github.dao.GitHubDatabase;
 
 import javax.inject.Singleton;
 
+import androidx.room.Room;
 import dagger.Module;
 import dagger.Provides;
 
