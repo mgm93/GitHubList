@@ -3,7 +3,6 @@ package com.bsobat.github;
 import android.arch.lifecycle.LifecycleActivity;
 import android.arch.lifecycle.Observer;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
 import android.util.Log;
 import android.view.Window;
 import android.widget.Toast;
