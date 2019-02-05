@@ -32,13 +32,13 @@ dependencies {
     androidTestImplementation('androidx.test.espresso:espresso-core:3.1.0-alpha4', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
-    implementation "androidx.appcompat:appcompat:$android_support_version"
-    implementation "androidx.legacy:legacy-support-v13:$android_support_version"
-    implementation "com.google.android.material:material:$android_support_version"
-    implementation "androidx.recyclerview:recyclerview:$android_support_version"
-    implementation "androidx.cardview:cardview:$android_support_version"
+    implementation "androidx.appcompat:appcompat:1.1.0-alpha01"
+    implementation "androidx.legacy:legacy-support-v13:1.0.0"
+    implementation "com.google.android.material:material:1.1.0-alpha03"
+    implementation "androidx.recyclerview:recyclerview:1.1.0-alpha02"
+    implementation "androidx.cardview:cardview:1.0.0"
 
-    implementation 'androidx.constraintlayout:constraintlayout:1.1.2'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
 
     testImplementation 'junit:junit:4.12'
 
@@ -51,9 +51,9 @@ dependencies {
 
     //android arch. component
     implementation "androidx.lifecycle:lifecycle-runtime:$archVersion"
-    implementation "androidx.lifecycle:lifecycle-extensions:$archVersion"
+    implementation "androidx.lifecycle:lifecycle-extensions:2.1.0-alpha02"
     annotationProcessor "androidx.lifecycle:lifecycle-compiler:$archVersion"
-    implementation "androidx.room:room-runtime:$archVersion"
+    implementation "androidx.room:room-runtime:2.1.0-alpha04"
     annotationProcessor "androidx.room:room-compiler:$archVersion"
 
     //Retrofit
