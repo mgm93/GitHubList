@@ -1,10 +1,10 @@
 package com.bsobat.github.dto;
 
-import android.support.annotation.Nullable;
 import android.util.Log;
 
 import java.io.IOException;
 
+import androidx.annotation.Nullable;
 import retrofit2.Response;
 
 public class ApiResponse<T> {
